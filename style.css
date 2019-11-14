@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body {
+  margin: 0px;
+}
+
+h2 {
+  font-family: 'Varela Round', sans-serif;
+  color: #CBCBCB;
+}
+
+a {
+  font-family: 'Varela Round', sans-serif;
+  color: #494949;
+  text-decoration: none;
+}
+
+.banner_container {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+}
+
+.banner {
+  text-shadow: 0 0 10px #000;
+/*  mix-blend-mode: difference;*/
+  text-align: center;
+  padding: 100px;
+  color: white;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+  font-family: 'Merriweather', serif;
+  color: #494949;
+  font-size: 14px;
+}
+
+.linkup {
+  background-image: linear-gradient(0deg, rgba(0,255,255,.2), rgba(0,200,200,.3) 75%)
+}
+
+.linkup:hover {
+  background-image: linear-gradient(0deg, rgba(0,255,255,.6), rgba(0,200,200,.7) 75%)
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media(max-width: 992px) {
+  .container {
+    width: 792px;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 468px;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 376px;
+  }
+
